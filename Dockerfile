@@ -19,7 +19,7 @@ ADD . /app
 
 WORKDIR /app
 
-#EXPOSE 9090 //uncommand it for web application
+EXPOSE 9090 //uncommand it for web application
 
 RUN cd /app && sbt compile
 
